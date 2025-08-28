@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Soundify Shop – Hjem</title>
+  <link rel="stylesheet" href="site.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container row between center">
+      <a class="brand" href="index.html">🎧 Soundify</a>
+      <nav class="nav">
+        <a href="products.html">Produkter</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Kontakt</a>
+        <a class="cart" href="#" aria-label="Kurv"><span id="cartCount">0</span>🛒</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Hi-Fi uden hype</h1>
+        <p>Headphones og earbuds til studier, pendling og gaming. Ingen tracking, ingen cookies – bare lyd.</p>
+        <p><a class="btn" href="products.html">Se alle produkter</a></p>
+      </div>
+    </section>
+
+    <section class="cards container">
+      <article class="card">
+        <img alt="Headphones" src="https://placehold.co/600x400?text=Headphones" />
+        <div class="pad">
+          <h2>Headphones</h2>
+          <p>Luk støjen ude og fokusér på flowet.</p>
+          <p><a class="btn ghost" href="headphones.html">Se modeller</a></p>
+        </div>
+      </article>
+      <article class="card">
+        <img alt="Earbuds" src="https://placehold.co/600x400?text=Earbuds" />
+        <div class="pad">
+          <h2>Earbuds</h2>
+          <p>Lette, trådløse og klar til hverdagen.</p>
+          <p><a class="btn ghost" href="earbuds.html">Se modeller</a></p>
+        </div>
+      </article>
+    </section>
+
+    <section id="faq" class="container prose">
+      <h2>FAQ</h2>
+      <details>
+        <summary>Hvordan returnerer jeg en vare?</summary>
+        <p>Returnér inden 30 dage i original emballage. Skriv først til support@soundify.example.</p>
+      </details>
+      <details>
+        <summary>Hvor lang er garantien?</summary>
+        <p>2 år i EU. Batterier 1 år.</p>
+      </details>
+    </section>
+
+    <section id="contact" class="container prose">
+      <h2>Kontakt</h2>
+      <p>Email: support@soundify.example • Telefon: +45 12 34 56 78</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container small">© <span id="year"></span> Soundify – Demo-site til Docker/Nginx undervisning.</div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
